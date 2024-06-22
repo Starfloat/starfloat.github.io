@@ -5,11 +5,11 @@
 	}
 	
 .item1 { grid-area: header;font-size: 30px; } /*item 1 - meaning */ 
-/*.entry { grid-area: kanjiBox;font-size: 1;text-align:center; } /*grid */ 
+.entry { grid-area: kanjiBox;font-size: 1;text-align:center; } /*grid */ 
 .item2 { grid-area: menu; font-size:50px; } /*item 2 - slug*/ 
 .item3 { grid-area: main; font-size: 30px;} /*item 3 - radicals*/ 
 .item4 { grid-area: right;font-size: 20px; } /*item 4 - readings*/ 
-/*.item5 { grid-area: footer; font-size: 20px;} /*item 5 - mnemonic*/ 
+.item5 { grid-area: footer; font-size: 20px;} /*item 5 - mnemonic*/ 
 
 .grid-container {
   display: grid;
@@ -35,6 +35,7 @@
 	list-style-type: none;
 }
 
+/*
 ul.stroke-order li {
 	float:left;
 	margin-right: -3px;
@@ -51,6 +52,7 @@ ul.stroke-order li:before {
 	content: '';
 	padding: 0px 0px 0px 0px;
 }
+*/
 radical{
 	background-color:#00a1f1;
 	border-radius: 15px;
